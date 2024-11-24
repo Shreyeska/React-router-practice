@@ -9,6 +9,7 @@ const Profile = () => {
     auth.logout();
     navigate("/");
   };
+
   return (
     <div>
       Welcome {auth.user}
